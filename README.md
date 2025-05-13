@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # people-page
 =======
 # Fullstack App – React + NestJS + Prisma (SQLite)
@@ -26,14 +25,20 @@ cd backend
 npm install
 
 # Optional: generate Prisma client
-npx prisma generate
+npm run prisma generate
 
 # Optional: run migrations
-npx prisma migrate dev --name init
+npm run prisma:migrate
 
 # Start backend server
 npm run start:dev
 
 ```
 
->>>>>>> Stashed changes
+
+
+@TODO: 
+fix types
+Only display users who have a corresponding record in the Membership (backend part)
+Finish filters and sort By (ui part)
+
